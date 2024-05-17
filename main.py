@@ -246,7 +246,7 @@ def remove_contact_phone(args, book: AddressBook):
     Remove the phone number of a contact in the Address Book.
     '''
     if len(args) != 2: # Check if the number of arguments is not equal to 2
-        raise IndexError("Please enter a name and phone number.") 
+        raise IndexError("Please enter a name and phone number.")
         # Raise an IndexError with the specified message
     name, phone = args # Unpack the arguments
     try: # Try to create name and phone objects
